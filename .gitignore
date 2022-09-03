@@ -1,0 +1,31 @@
+# Virtualenv
+venv3
+
+#IDE
+# IntelliJ
+.idea
+# Visual Studio Code
+.vscode
+#Eclipse
+.metadata
+*.bak
+*.swp
+.settings/
+.loadpath
+*.pydevproject
+
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+.venv
+.coverage
+
+# due to using tox and pytest
+.tox
+.cache

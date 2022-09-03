@@ -1,0 +1,5 @@
+py10:
+  image: python:3.10
+  script:
+  - pip install tox==3.25.1
+  - tox -e tests,pep8
